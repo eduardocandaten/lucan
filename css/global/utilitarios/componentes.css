@@ -1,0 +1,25 @@
+.conteiner {
+  display: grid;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--espaco-xxxl);
+  padding: var(--espaco-s);
+}
+
+.botao-primario {
+  font: 1.25rem/1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--cor-primaria-1);
+  max-width: max-content;
+  background: none;
+  padding: var(--espaco-xxs) var(--espaco-xs);
+  border: 1px solid currentColor;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.botao-primario:hover {
+  transform: scale(110%);
+}

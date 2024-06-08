@@ -1,0 +1,23 @@
+:root {
+  --espaco-xxxs: 0.25rem;
+  --espaco-xxs: 0.5rem;
+  --espaco-xs: 1rem;
+  --espaco-s: 1.5rem;
+  --espaco-ms: 2rem;
+  --espaco-ml: 3rem;
+  --espaco-l: 4rem;
+  --espaco-xl: 5rem;
+  --espaco-xxl: 7.5rem;
+  --espaco-xxxl: 12.5rem;
+}
+
+:root {
+  --cor-branco: #FFFFFF;
+  --cor-cinza-1: #F7F7F7;
+  --cor-cinza-2: #EAEAEA;
+  --cor-cinza-3: #666666;
+  --cor-cinza-4: #4D4D4D;
+  --cor-cinza-5: #262626;
+  --cor-preto: #000000;
+  --cor-primaria-1: #A60303;
+}

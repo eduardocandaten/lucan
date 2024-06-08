@@ -1,0 +1,15 @@
+.fonte-1-xl {
+  font: 2.5rem/1.2 "Forum", serif;
+}
+
+.fonte-1-l {
+  font: 2rem/1.25 "Forum", serif;
+}
+
+.fonte-2-s {
+  font: 1rem/1.5 "Roboto", sans-serif;
+}
+
+.fonte-depoimento {
+  font: italic black 1.5rem/1.65 "Merriweather", cursive;
+}

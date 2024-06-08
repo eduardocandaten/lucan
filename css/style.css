@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Global */
+@import "global/resets.css";
+/* Utilitarios */
+@import "global/utilitarios/utilitarios.css";
+@import "global/utilitarios/cores.css";
+@import "global/utilitarios/fontes.css";
+@import "global/utilitarios/componentes.css";
