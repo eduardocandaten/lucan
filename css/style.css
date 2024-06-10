@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
 /* Global */
-@import "global/resets.css";
+@import "./global/resets.css";
 /* Utilitarios */
-@import "global/utilitarios/utilitarios.css";
-@import "global/utilitarios/cores.css";
-@import "global/utilitarios/fontes.css";
+@import "./global/utilitarios/utilitarios.css";
+@import "./global/utilitarios/cores.css";
+@import "./global/utilitarios/fontes.css";
 /* Componentes */
-@import "global/componentes/componentes.css";
-@import "global/componentes/header.css";
-@import "global/componentes/header-menu.css";
+@import "./global/componentes/componentes.css";
+@import "./global/componentes/header.css";
+@import "./global/componentes/header-menu.css";
+
+/* Home */
+@import "./home/agendar.css";

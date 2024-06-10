@@ -1,0 +1,30 @@
+.agendar {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: end;
+}
+
+.agendar-conteudo {
+  display: grid;
+  justify-items: start;
+}
+
+.agendar-conteudo h1 {
+  max-width: 20ch;
+  margin-bottom: var(--espaco-s);
+}
+
+.agendar-conteudo a {
+  margin-bottom: var(--espaco-xxs);
+}
+
+@media (max-width: 600px) {
+  .agendar {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+
+  .agendar-conteudo h1 {
+    margin-bottom: var(--espaco-xs);
+  }
+}
