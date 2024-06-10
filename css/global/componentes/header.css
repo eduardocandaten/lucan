@@ -1,5 +1,7 @@
 .header-bg {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background: var(--cor-cinza-1);
   border-bottom: 2px solid var(--cor-cinza-2);

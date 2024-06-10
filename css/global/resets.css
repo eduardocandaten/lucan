@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  margin-top: calc(var(--espaco-ml) + var(--espaco-xl));
+}
+
 ul {
   list-style: none;
 }
