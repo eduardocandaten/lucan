@@ -22,4 +22,5 @@ function abrirMenu(event) {
 }
 
 botaoMenu.addEventListener("click", abrirMenu);
-botaoMenu.addEventListener("touchstart", abrirMenu); // para que não tenha demora no uso mobile
+// para que não tenha demora no uso mobile
+botaoMenu.addEventListener("touchstart", abrirMenu);
