@@ -89,7 +89,7 @@
   }
 
 
-  .header ul li a:hover {
+  .header ul li:not(:first-child) a:hover {
     background: var(--cor-cinza-2);
   }
 
