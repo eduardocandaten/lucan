@@ -1,0 +1,47 @@
+.header-bg {
+  position: fixed;
+  width: 100%;
+  background: var(--cor-cinza-1);
+  border-bottom: 2px solid var(--cor-cinza-2);
+  z-index: 1000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-ms);
+  max-width: max-content;
+  height: var(--espaco-ml);
+  margin-bottom: 0;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-ms);
+}
+
+.header ul li:not(.alt) a {
+  position: relative;
+  padding-top: var(--espaco-xs);
+  padding-bottom: var(--espaco-xs);
+}
+
+.header ul li:not(.alt) a:hover {
+  color: var(--cor-preto);
+}
+
+.header ul li:not(.alt) a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: var(--cor-cinza-5);
+  bottom: var(--espaco-xs);
+  left: 0;
+  transition: width 0.3s, color 0.3s;
+}
+
+.header ul li:not(.alt) a:hover::after {
+  width: 100%;
+}

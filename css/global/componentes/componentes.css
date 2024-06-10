@@ -1,0 +1,42 @@
+.conteiner {
+  display: grid;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--espaco-xxxl);
+  padding-left: var(--espaco-s);
+  padding-right: var(--espaco-s);
+}
+
+.botao-primario,
+.botao-secundario {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  max-width: max-content;
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.botao-primario {
+  font: 1.25rem/1.5 "Roboto", sans-serif;
+  color: var(--cor-primaria-1);
+  padding: var(--espaco-xxs) var(--espaco-xs);
+}
+
+.botao-secundario {
+  font: 0.875rem/1.15 "Roboto", sans-serif;
+  color: var(--cor-cinza-5);
+  padding: var(--espaco-xxxs) var(--espaco-xxs);
+}
+
+.botao-primario:hover,
+.botao-secundario:hover {
+  transform: scale(105%);
+}
+
+.sombra-1 {
+  box-shadow: 0px 1px var(--espaco-s) rgba(0, 0, 0, 0.10);
+}

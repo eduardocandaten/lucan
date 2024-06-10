@@ -1,0 +1,99 @@
+#botao-menu {
+  display: none;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .header {
+    margin: 0;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  #botao-menu {
+    display: block;
+    position: relative;
+    border-top: 2px solid var(--cor-cinza-5);
+    width: var(--espaco-xs);
+    height: var(--espaco-xs);
+    cursor: pointer;
+  }
+
+  #botao-menu::before,
+  #botao-menu::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    left: 0;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+  }
+
+  #botao-menu::before {
+    bottom: 7px;
+  }
+
+  #botao-menu::after {
+    bottom: 0;
+  }
+
+  #botao-menu.ativo {
+    border: none;
+  }
+
+  #botao-menu.ativo::before {
+    transform: rotate(135deg);
+  }
+
+  #botao-menu.ativo::after {
+    transform: rotate(-135deg);
+    bottom: 7px;
+  }
+
+  .header ul {
+    visibility: hidden;
+    position: absolute;
+    flex-direction: column;
+    top: var(--espaco-ml);
+    left: 0;
+    align-items: start;
+    gap: 0;
+    width: 100%;
+    background: var(--cor-cinza-1);
+    transition: 0.6s;
+    height: 0;
+    overflow-y: hidden;
+  }
+
+  .header ul.ativo {
+    visibility: visible;
+    height: calc(100vh - var(--espaco-ml));
+    overflow-y: auto;
+  }
+
+  .header ul li {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header ul li a.botao-secundario {
+    margin: var(--espaco-xs) var(--espaco-xs);
+    padding: var(--espaco-xxxs) var(--espaco-xxs);
+  }
+
+  .header ul li a {
+    padding: var(--espaco-xs) var(--espaco-xs);
+  }
+
+
+  .header ul li a:hover {
+    background: var(--cor-cinza-2);
+  }
+
+  .header ul li:not(.alt) a::after {
+    display: none;
+  }
+}
