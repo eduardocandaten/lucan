@@ -18,6 +18,10 @@
   margin-bottom: var(--espaco-xxs);
 }
 
+.agendar img {
+  height: 560px;
+}
+
 @media (max-width: 600px) {
   .agendar {
     grid-template-columns: 1fr;
