@@ -52,3 +52,9 @@
     padding: var(--espaco-xxxs) var(--espaco-xs);
   }
 }
+
+@media (max-width: 600px) {
+  .conteiner {
+    margin-bottom: var(--espaco-xxl);
+  }
+}

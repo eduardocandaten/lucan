@@ -31,4 +31,9 @@
   .agendar-conteudo h1 {
     margin-bottom: var(--espaco-xs);
   }
+
+  .agendar img {
+    width: 100%;
+    height: auto;
+  }
 }
