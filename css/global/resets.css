@@ -6,6 +6,7 @@
 
 body {
   margin-top: calc(var(--espaco-ml) + var(--espaco-xl));
+  overflow-x: hidden;
 }
 
 ul {
