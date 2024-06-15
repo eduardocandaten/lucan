@@ -25,6 +25,13 @@ img {
   object-fit: cover;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
 @media (max-width: 700px) {
   body {
     margin-top: calc(var(--espaco-ml) + var(--espaco-ml));
