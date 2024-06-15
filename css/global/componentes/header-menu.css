@@ -17,7 +17,6 @@
     border-top: 2px solid var(--cor-cinza-5);
     width: var(--espaco-xs);
     height: var(--espaco-xs);
-    cursor: pointer;
   }
 
   #botao-menu::before,
