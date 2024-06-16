@@ -20,3 +20,6 @@
 
 /* Galerias */
 @import "./galerias/galerias.css";
+
+/* Contato */
+@import "./contato.css";
