@@ -1,0 +1,50 @@
+.localizacao-bg {
+  background: var(--cor-cinza-1);
+}
+
+.localizacao {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: var(--espaco-l);
+  padding-bottom: var(--espaco-l);
+}
+
+.localizacao-mapa {
+  width: 100%;
+  height: 560px;
+  border: none;
+}
+
+.localizacao-conteudo h2 {
+  margin-bottom: var(--espaco-ms);
+}
+
+.localizacao-conteudo ul li {
+  padding-left: var(--espaco-ms);
+}
+
+.localizacao-conteudo ul li:first-child {
+  background: url("../../../img/icons/localizacao-vermelho.svg") no-repeat;
+}
+
+.localizacao-conteudo ul li:nth-child(2) {
+  margin-bottom: var(--espaco-xs);
+}
+
+.localizacao-conteudo ul li:nth-child(3) {
+  background: url("../../../img/icons/relogio-vermelho.svg") no-repeat;
+}
+
+@media (max-width: 600px) {
+  .localizacao {
+    grid-template-columns: 1fr;
+  }
+
+  .localizacao-mapa {
+    height: 280px;
+  }
+
+  .localizacao-conteudo {
+    grid-row: 1;
+  }
+}

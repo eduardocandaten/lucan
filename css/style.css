@@ -10,6 +10,7 @@
 @import "./global/componentes/componentes.css";
 @import "./global/componentes/header.css";
 @import "./global/componentes/header-menu.css";
+@import "./global/componentes/localizacao.css";
 
 /* Home */
 @import "./home/agendar.css";
