@@ -11,7 +11,7 @@
 }
 
 .fonte-depoimento {
-  font: italic black 1.5rem/1.65 "Merriweather", cursive;
+  font: italic 900 1.5rem/1.65 "Merriweather", cursive;
 }
 
 @media (max-width: 800px) {

@@ -1,0 +1,46 @@
+.sobre {
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  align-items: center;
+}
+
+.sobre img {
+  height: 560px;
+  width: 100%;
+}
+
+.sobre h2 {
+  max-width: 20ch;
+  margin-bottom: var(--espaco-s);
+}
+
+.sobre p {
+  margin-bottom: var(--espaco-ms);
+}
+
+.depoimento-bg {
+  background: var(--cor-primaria-1);
+  padding-top: var(--espaco-xl);
+  padding-bottom: var(--espaco-xl);
+}
+
+.depoimento {
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  align-items: center;
+  color: #450000;
+  margin-bottom: 0px;
+}
+
+.depoimento img {
+  height: 560px;
+  width: 100%;
+}
+
+.depoimento-conteudo p {
+  margin-bottom: var(--espaco-xs);
+}
+
+.depoimento-conteudo span {
+  font-size: 1.2rem;
+}
