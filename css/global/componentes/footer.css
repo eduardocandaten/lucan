@@ -1,0 +1,44 @@
+.footer-bg {
+  background: var(--cor-preto);
+}
+
+.footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: var(--espaco-xl);
+  padding-bottom: var(--espaco-xl);
+  margin-bottom: 0px;
+}
+
+.footer-contato,
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contato h3,
+.footer-links h3 {
+  margin-bottom: var(--espaco-xs);
+}
+
+.footer a {
+  max-width: max-content;
+  transition: color 0.3s;
+  line-height: 3;
+}
+
+.footer a:hover {
+  color: var(--cor-branco);
+}
+
+.footer-contato img:first-child {
+  margin-top: var(--espaco-xs);
+  margin-bottom: var(--espaco-xs);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    padding-top: var(--espaco-l);
+    padding-bottom: var(--espaco-l);
+  }
+}

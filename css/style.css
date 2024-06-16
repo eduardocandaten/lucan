@@ -11,6 +11,7 @@
 @import "./global/componentes/header.css";
 @import "./global/componentes/header-menu.css";
 @import "./global/componentes/localizacao.css";
+@import "./global/componentes/footer.css";
 
 /* Home */
 @import "./home/agendar.css";
