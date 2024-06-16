@@ -36,5 +36,6 @@ button {
 @media (max-width: 700px) {
   body {
     margin-top: calc(var(--espaco-ml) + var(--espaco-ml));
+    overflow-x: hidden;
   }
 }
