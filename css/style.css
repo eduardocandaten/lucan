@@ -17,3 +17,6 @@
 @import "./home/agendar.css";
 @import "./home/galerias-home.css";
 @import "./home/qualidade.css";
+
+/* Galerias */
+@import "./galerias/galerias.css";
