@@ -28,7 +28,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: end;
   align-items: center;
-  color: #450000;
+  color: #FFD5D5;
   margin-bottom: 0px;
 }
 
@@ -43,4 +43,18 @@
 
 .depoimento-conteudo span {
   font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+
+  .sobre,
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre img,
+  .depoimento img {
+    height: 280px;
+    grid-row: 2;
+  }
 }

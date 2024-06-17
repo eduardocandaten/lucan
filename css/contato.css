@@ -33,9 +33,34 @@
   margin-bottom: var(--espaco-s);
 }
 
+.contato-conteudo a[href="mailto:contato@lucanstudio.com.br"] {
+  position: relative;
+  transition: color 0.3s;
+}
+
 .contato>img {
   height: 560px;
 }
+
+.contato-conteudo a[href="mailto:contato@lucanstudio.com.br"]:hover {
+  color: var(--cor-preto);
+}
+
+.contato-conteudo a[href="mailto:contato@lucanstudio.com.br"]::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: var(--cor-preto);
+  bottom: 0px;
+  left: 0;
+  transition: width 0.3s, color 0.3s;
+}
+
+.contato-conteudo a[href="mailto:contato@lucanstudio.com.br"]:hover::after {
+  width: 100%;
+}
+
 
 @media (max-width: 600px) {
   .contato {

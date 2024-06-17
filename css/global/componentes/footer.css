@@ -21,6 +21,7 @@
 }
 
 .footer a {
+  position: relative;
   max-width: max-content;
   transition: color 0.3s;
   line-height: 3;
@@ -28,6 +29,21 @@
 
 .footer a:hover {
   color: var(--cor-branco);
+}
+
+.footer li:not(.alt) a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: var(--cor-branco);
+  bottom: var(--espaco-xxs);
+  left: 0;
+  transition: width 0.3s, color 0.3s;
+}
+
+.footer li:not(.alt) a:hover::after {
+  width: 100%;
 }
 
 .footer-contato img:first-child {

@@ -11,7 +11,7 @@
 
 .titulo {
   font: 2.5rem/1.2 "Forum", serif;
-  color: var(--cor-cinza-5);
+  color: var(--cor-cinza-6);
   text-align: center;
   margin-bottom: var(--espaco-xl);
 }
@@ -38,7 +38,7 @@
 
 .botao-secundario {
   font: 0.875rem/1.15 "Roboto", sans-serif;
-  color: var(--cor-cinza-5);
+  color: var(--cor-cinza-6);
   padding: var(--espaco-xxxs) var(--espaco-xxs);
 }
 

@@ -38,7 +38,7 @@
   position: absolute;
   width: 0%;
   height: 2px;
-  background: var(--cor-cinza-5);
+  background: var(--cor-cinza-6);
   bottom: var(--espaco-xs);
   left: 0;
   transition: width 0.3s, color 0.3s;

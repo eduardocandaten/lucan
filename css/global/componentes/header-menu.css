@@ -14,7 +14,7 @@
   #botao-menu {
     display: block;
     position: relative;
-    border-top: 2px solid var(--cor-cinza-5);
+    border-top: 2px solid var(--cor-cinza-6);
     width: var(--espaco-xs);
     height: var(--espaco-xs);
   }
