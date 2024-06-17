@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background: var(--cor-cinza-1);
   border-bottom: 2px solid var(--cor-cinza-2);
   z-index: 1000;

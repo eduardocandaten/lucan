@@ -1,7 +1,6 @@
 .galerias-home {
   position: relative;
   margin-bottom: var(--espaco-xxxl);
-  max-width: 100vw;
 }
 
 .galerias-home h2 {
