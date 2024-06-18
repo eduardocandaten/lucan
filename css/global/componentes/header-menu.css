@@ -92,6 +92,10 @@
     background: var(--cor-cinza-2);
   }
 
+  .header ul li:not(:first-child) a.ativo {
+    background: var(--cor-cinza-2);
+  }
+
   .header ul li:not(.alt) a::after {
     display: none;
   }
