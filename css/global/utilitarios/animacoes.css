@@ -1,0 +1,21 @@
+[data-animar] {
+  opacity: 0;
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+[data-animar="cima"] {
+  transform: translateY(-80px);
+}
+
+[data-animar="esquerda"] {
+  transform: translateX(-80px);
+}
+
+[data-animar="direita"] {
+  transform: translateX(80px);
+}
+
+.animar {
+  opacity: 1;
+  transform: none;
+}
