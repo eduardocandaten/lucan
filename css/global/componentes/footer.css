@@ -51,6 +51,10 @@
   margin-bottom: var(--espaco-xs);
 }
 
+.footer-links li a.ativo::after {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .footer {
     grid-template-columns: 1fr;

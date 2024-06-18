@@ -47,3 +47,7 @@
 .header ul li:not(.alt) a:hover::after {
   width: 100%;
 }
+
+.header ul li a.ativo::after {
+  width: 100%;
+}
