@@ -1,22 +1,21 @@
-const imagensSlide = document.querySelectorAll(".galerias-slides li");
+const galerias = document.querySelector(".galerias-slides");
+const imagens = document.querySelectorAll(".galerias-slides img");
+const botaoVoltar = document.getElementById("botao-voltar");
+const botaoAvancar = document.getElementById("botao-avancar");
+let imagemAtual = 0;
 
-function atualizarClasses(index) {
-  imagensSlide.forEach((imagem, i) => {
-    imagem.classList.remove("anterior", "ativo", "posterior");
-    if (i === index - 1) imagem.classList.add("anterior");
-    if (i === index) imagem.classList.add("ativo");
-    if (i === index + 1) imagem.classList.add("posterior");
-  });
+function mostrarImagem(index) {
+  galerias.style.transform = `translateX(${-(index * 100)}%)`;
 }
 
-imagensSlide.forEach((imagem, index) => {
-  imagem.addEventListener("click", (event) => {
-    if (!imagem.classList.contains("ativo")) event.preventDefault();
-    if (
-      imagem.classList.contains("anterior") ||
-      imagem.classList.contains("posterior")
-    ) {
-      atualizarClasses(index);
-    }
-  });
+botaoVoltar.addEventListener("click", () => {
+  imagemAtual = imagemAtual > 0 ? imagemAtual - 1 : imagens.length - 1;
+  mostrarImagem(imagemAtual);
 });
+
+botaoAvancar.addEventListener("click", () => {
+  imagemAtual = imagemAtual < imagens.length - 1 ? imagemAtual + 1 : 0;
+  mostrarImagem(imagemAtual);
+});
+
+mostrarImagem(imagemAtual);
