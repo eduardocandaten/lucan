@@ -24,7 +24,7 @@ function scrollAnimado() {
 }
 
 if (secoes.length) {
-  window.addEventListener("scroll", debounce(scrollAnimado, 100));
+  window.addEventListener("scroll", debounce(scrollAnimado, 50));
 }
 
 scrollAnimado();
