@@ -26,8 +26,12 @@
   transition: opacity 0.6s ease-in-out;
 }
 
+.galerias-home a,
 .galerias-home button {
   position: absolute;
+}
+
+.galerias-home button {
   top: 50%;
   transform: translateY(-50%);
   background: var(--cor-branco);
@@ -47,4 +51,20 @@
 
 #botao-avancar {
   right: var(--espaco-xs);
+}
+
+.galerias-home a {
+  display: none;
+  background: var(--cor-branco);
+  bottom: var(--espaco-s);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.galerias-home a.ativo {
+  display: block;
+}
+
+.galerias-home .botao-primario:hover {
+  transform: scale(110%) translateX(-45%);
 }

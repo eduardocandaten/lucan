@@ -2,10 +2,20 @@ const galerias = document.querySelector(".galerias-slides");
 const imagens = document.querySelectorAll(".galerias-slides img");
 const botaoVoltar = document.getElementById("botao-voltar");
 const botaoAvancar = document.getElementById("botao-avancar");
+const galeriaTitulos = document.querySelectorAll(".galerias-home h3");
+const galeriaLinks = document.querySelectorAll(".galerias-home a");
 let imagemAtual = 0;
 
-function mostrarImagem(index) {
-  galerias.style.transform = `translateX(${-(index * 100)}%)`;
+function mostrarImagem(indexImagem) {
+  galerias.style.transform = `translateX(${-(indexImagem * 100)}%)`;
+
+  galeriaLinks.forEach((link) => {
+    link.classList.remove("ativo");
+  });
+
+  galeriaLinks.forEach((link, indexLink) => {
+    if (indexImagem === indexLink) link.classList.add("ativo");
+  });
 }
 
 botaoVoltar.addEventListener("click", () => {
