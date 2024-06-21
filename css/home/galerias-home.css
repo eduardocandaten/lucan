@@ -68,3 +68,9 @@
 .galerias-home .botao-primario:hover {
   transform: scale(110%) translateX(-45%);
 }
+
+@media (max-width: 600px) {
+  .galerias-home {
+    margin-bottom: var(--espaco-xxl);
+  }
+}
