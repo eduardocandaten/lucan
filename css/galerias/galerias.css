@@ -12,6 +12,10 @@
   position: relative;
 }
 
+.galerias img {
+  box-shadow: 0px 1px var(--espaco-s) rgba(0, 0, 0, 0.10);
+}
+
 .galerias h2 {
   display: inline-block;
 }

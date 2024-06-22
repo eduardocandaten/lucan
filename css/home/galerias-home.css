@@ -26,6 +26,14 @@
   transition: opacity 0.6s ease-in-out;
 }
 
+.galerias-slides img:nth-child(4) {
+  object-position: 0 -200px;
+}
+
+.galerias-slides img:nth-child(6) {
+  object-position: 0 -100px;
+}
+
 .galerias-home a,
 .galerias-home button {
   position: absolute;
@@ -67,6 +75,14 @@
 
 .galerias-home .botao-primario:hover {
   transform: scale(110%) translateX(-45%);
+}
+
+@media (max-width: 1000px) {
+
+  .galerias-slides img:nth-child(4),
+  .galerias-slides img:nth-child(6) {
+    object-position: 0;
+  }
 }
 
 @media (max-width: 600px) {

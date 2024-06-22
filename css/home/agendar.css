@@ -20,6 +20,15 @@
 
 .agendar img {
   height: 560px;
+  width: 100%;
+  object-position: left;
+}
+
+@media (max-width: 800px) {
+
+  .agendar img {
+    height: 360px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -30,10 +39,5 @@
 
   .agendar-conteudo h1 {
     margin-bottom: var(--espaco-xs);
-  }
-
-  .agendar img {
-    width: 100%;
-    height: auto;
   }
 }
