@@ -21,6 +21,7 @@
 
 /* Galerias */
 @import "./galerias/galerias.css";
+@import "./galerias/galerias-interna.css";
 
 /* Contato */
 @import "./contato.css";
