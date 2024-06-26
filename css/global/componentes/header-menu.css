@@ -87,7 +87,6 @@
     padding: var(--espaco-xs) var(--espaco-xs);
   }
 
-
   .header ul li:not(:first-child) a:hover {
     background: var(--cor-cinza-2);
   }

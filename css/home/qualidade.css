@@ -31,6 +31,10 @@
   .qualidade ul img {
     height: 280px;
   }
+
+  .qualidade ul img.alt {
+    object-position: 0 -50px;
+  }
 }
 
 @media (max-width: 800px) {

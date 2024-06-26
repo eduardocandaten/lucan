@@ -31,7 +31,7 @@
 }
 
 .galerias-slides img:nth-child(6) {
-  object-position: 0 -100px;
+  object-position: center -50px;
 }
 
 .galerias-home a,
@@ -78,9 +78,7 @@
 }
 
 @media (max-width: 1000px) {
-
-  .galerias-slides img:nth-child(4),
-  .galerias-slides img:nth-child(6) {
+  .galerias-slides img:nth-child(4) {
     object-position: 0;
   }
 }

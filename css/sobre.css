@@ -7,6 +7,7 @@
 .sobre img {
   height: 560px;
   width: 100%;
+  object-position: bottom;
 }
 
 .sobre h2 {
@@ -18,42 +19,13 @@
   margin-bottom: var(--espaco-ms);
 }
 
-.depoimento-bg {
-  background: var(--cor-primaria-1);
-  padding-top: var(--espaco-xl);
-  padding-bottom: var(--espaco-xl);
-}
-
-.depoimento {
-  grid-template-columns: 1fr 1fr;
-  justify-items: end;
-  align-items: center;
-  color: #FFD5D5;
-  margin-bottom: 0px;
-}
-
-.depoimento img {
-  height: 560px;
-  width: 100%;
-}
-
-.depoimento-conteudo p {
-  margin-bottom: var(--espaco-xs);
-}
-
-.depoimento-conteudo span {
-  font-size: 1.2rem;
-}
-
 @media (max-width: 800px) {
 
-  .sobre,
-  .depoimento {
+  .sobre {
     grid-template-columns: 1fr;
   }
 
-  .sobre img,
-  .depoimento img {
+  .sobre img {
     height: 280px;
     grid-row: 2;
   }
