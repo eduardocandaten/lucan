@@ -12,7 +12,11 @@
 .localizacao-mapa {
   width: 100%;
   height: 560px;
-  border: none;
+  transition: transform 0.3s;
+}
+
+.localizacao-mapa:hover {
+  transform: scale(105%);
 }
 
 .localizacao-conteudo h2 {
